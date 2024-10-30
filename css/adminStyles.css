@@ -1,0 +1,9 @@
+.toplevel_page_kdt_backup_plugin>.wp-menu-image::before{
+    background-image: url(../img/backup.png) !important;
+    background-repeat: no-repeat;
+    content: "" !important;
+    background-size: 26px;
+    width: 28px;
+    background-size: 26px;
+    background-position: 1px 1px;
+}

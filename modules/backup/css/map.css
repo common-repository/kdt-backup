@@ -1,0 +1,14 @@
+.bcpMarkerInfoWindow {
+    width: 290px;
+    height: 150px;
+    overflow:auto;
+}
+.bcpInfoWindowtitle {
+    font-size: 19px !important;
+    font-weight: bold !important;
+    color: brown;
+    margin: 0 0 5px 6px;
+}
+.bcp_MapPreview img{
+ max-width:inherit;   
+}

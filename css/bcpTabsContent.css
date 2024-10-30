@@ -1,0 +1,267 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/DXI1ORHCpsQm3Vp6mXoaTYraN7vELC11_xip9Rz-hMs.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/RjgO7rYTmqiVp7vzi-Q5UT8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+div#bcpAdminOptionsTabs {
+    float: left;
+    width: 100%;
+    font-family:'Open Sans',sans-serif;
+}
+div#bcpAdminOptionsTabs h1,div#bcpAdminOptionsTabs h2,div#bcpAdminOptionsTabs h3,div#bcpAdminOptionsTabs a,div#bcpAdminOptionsTabs div,div#bcpAdminOptionsTabs p,div#bcpAdminOptionsTabs b,div#bcpAdminOptionsTabs span,div#bcpAdminOptionsTabs pre,div#bcpAdminOptionsTabs table,div#bcpAdminOptionsTabs td,div#bcpAdminOptionsTabs th{
+    font-family:'Open Sans',sans-serif;    
+}
+h1,h2,h3,h4,h5{
+    margin:0 !important;
+}
+.clr{
+    clear:both;
+}
+.bcpMainTab a {
+    font-size: 14px;
+}
+.bcpAdminOptionsTabs a,.bcpAdminOptionsTabs div,.bcpAdminOptionsTabs li{
+    backround-repeat:no-repeat;
+}
+.tab_data_container .tab-pane{
+    display:none;
+    background-color: #DDE7FF;
+    width: 100%;
+    min-height:300px;
+    float:left;
+}
+.tab_data_container .tab-pane.active{
+    display:block;
+}
+div.tab_data_container {
+    min-height: 300px;
+    float: left;
+    width: 99%;
+    border: 1px solid #799BF0;
+    margin-top: -2px;
+}
+.bcpMainTab li a {
+    border: 1px solid #BEC3C9 !important;
+}
+.bcpMainTab li.active a{
+    border: 1px solid #428bca !important;
+    border-bottom: none;
+    background-color: #DDE7FF !important;
+}
+.bcpMainTab li a:hover{
+   border: 1px solid #428bca !important;
+    border-bottom: none;
+    background-color: #DDE7FF !important;    
+}
+ul.nav.nav-tabs.bcpMainTab {
+    overflow: hidden;
+    margin:0 !important;
+    position:relative;
+    border-bottom:none !important;
+    background-color: #edeff4;
+}
+
+
+
+.bcpIcon {
+    background-image: url(../img/glyphicons-halflings.png);
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+.bcpIconw {
+    background-image: url(../img/glyphicons-halflings-white.png);
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    float: left;
+    overflow: hidden;
+    margin-top: 2px;
+}
+
+.bcpIconbcpAddNewBackup{
+    background-position: -404px -94px;
+}
+
+
+
+.bcpIconbcpAllBackups{
+    background-position: -333px -46px
+}
+
+
+.bcpIconbcpPluginSettings {
+    background-position: -358px -140px;
+}
+
+.newBackupForm h2{
+    text-align:center;
+    margin:0;
+    padding:20px 0;
+}
+
+div.select-type-cont {
+    width: 100%;
+    float: left;
+    padding: 10px;
+}
+div.check-elem {
+    float: left;
+    width: 100%;
+    margin: 10px 0;
+    padding: 5px 0;
+    border-bottom: 1px solid #fff;
+}
+div.check-elem label {
+    display: block;
+    float: left;
+    width: 100px;
+    margin: 0;
+}
+
+
+div.form-row input {
+    float: right;
+}
+
+div.form-row {
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+    margin: 10px 0;
+}
+
+
+
+
+div.focm-container {
+    float: left;
+    width: 500px;
+}
+
+.bcpIconSave {
+    background-position: -289px 1px;
+}
+
+
+.bcpIconDiscard {
+    background-position: -314px 1px;
+}
+div.btns-cont {
+    width: 250px;
+    padding: 0px 10px;
+}
+.bcp-response-cont{
+    min-width:100px;
+        min-height:50px;
+}
+.bcpMainTab{
+    border:none;
+}
+form#NewBackUpForm {
+    float: left;
+    width: 100%;
+}
+h1.bcp-plugin-title {
+    padding: 20px 0;
+    text-align: left;
+}
+select#select_backup_type {
+    width: 146px !important;
+    float: right;
+}
+.focm-container label{
+    display:block;
+    float:left;
+}
+
+a.backup_result_download {
+    display: block;
+    text-align: center;
+    font-size: 17px;
+    padding-top: 9px;
+    text-decoration: underline;
+}
+div#bcpAllBackups {
+    padding-top: 15px;
+}
+
+div.refreshMapsList {
+    padding: 10px 30px;
+    float: right;
+}
+table#bcpBackupsListTable {
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px 1px rgb(111, 111, 111);
+}
+div.table-container {
+    clear: both;
+    margin: 0 auto;
+    min-height: 450px;
+    width:95%;
+}
+div#bcpBackupsListTable_length {
+    float: left;
+}
+
+div#bcpBackupsListTable_length select {
+    width: 69px;
+    margin-top: 8px;
+}
+
+div#bcpBackupsListTable_filter {
+    float: right;
+    margin-top: 8px;
+}
+div#bcpBackupsListTable_filter input {
+    height: 29px !important;
+    margin-top: 5px;
+}
+
+.bcpBackupRemoveBtn {
+    display: block;
+    float: right;
+    clear: both;
+    margin-right: 45px;
+}
+
+.bcpBigLoader{
+    background-image: url(../img/ajax-loaderBIG.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+.deactivate-block {
+    font-family: 'Open Sans',sans-serif;
+    width: 500px !important;
+    margin: 250px auto;
+    text-align: center;
+    background-color: #edeff4;
+    padding: 18px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 1px rgb(124, 119, 119);
+    float: none !important;
+}
+
+
+
+
+
+
+
+
+
